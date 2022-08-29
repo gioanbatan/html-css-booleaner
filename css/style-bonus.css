@@ -7,7 +7,7 @@
 
 /* COMMON */
 .container{
-    width: 1300px;
+    width: 100vw;
     margin: auto;
 }
 
@@ -15,7 +15,7 @@
 /* HEADER */
 header{
     height: 100px;
-    width: 1300px;
+    width: 100%;
 
     background-color: #4ea0ff;
     background-image: url("../img/pattern.png");
@@ -24,13 +24,13 @@ header{
 }
  
 header img{
-    margin: 40px calc(10% + 7px);
+    margin: 40px calc(15% + 7px);
     height: 50px;
 }
 
 /* MAIN */
 main{
-    padding: 10px calc(10% + 5px);
+    padding: 10px calc(15% + 5px);
     font-size: 18px;
 }
 
@@ -112,7 +112,7 @@ tbody .row-1, tbody .row-3{
 
 /* FOOTER */
 footer{
-    padding: 10px calc(10% + 5px);
+    padding: 10px calc(15% + 5px);
 }
 
 .footer-caption{
