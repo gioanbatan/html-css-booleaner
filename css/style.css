@@ -1,3 +1,25 @@
+/* CSS RESET */
 *{
-    background-color: brown;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+
+/* HEADER */
+header {
+    height: 100px;
+    width: 100%;
+
+    background-color: #4ea0ff;
+    background-image: url("../img/pattern.png");
+    background-size: 380px;
+    background-position: top;
+    /* background-position-x: 70px; */
+}
+ 
+header img{
+    margin: 40px 7px;
+    height: 50px;
 }
