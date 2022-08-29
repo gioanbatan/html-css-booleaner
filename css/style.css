@@ -56,4 +56,17 @@ main {
     color: #36b1e7;
 }
 
+/* photo */
+.photo {
+    margin-top: 20px;
+}
+
+.photo img{
+    height: 350px;
+}
+
+.photo-caption{
+    font-size: 13px;
+}
+
 
