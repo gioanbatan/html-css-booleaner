@@ -85,3 +85,31 @@ p .note{
 ul{
     list-style-position: inside;
 }
+
+/* table */
+
+table{
+    margin-top: 20px;
+
+    border-collapse: collapse;
+
+    text-align: left;
+}
+
+thead {
+    background-color: #20a9e5;
+    color: #ffffff;
+}
+
+tbody .row-1, tbody .row-3{
+    background-color: #b1e5f2;
+}
+
+.column-type-1{
+    width: 20%;
+}
+
+.column-type-2{
+    width: 50%;
+}
+
