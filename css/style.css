@@ -31,6 +31,7 @@ header img{
 /* MAIN */
 main {
     padding: 10px 5px;
+    font-size: 18px;
 }
 
 /* title */
@@ -73,10 +74,14 @@ main {
 p {
     margin-top: 20px;
     margin-bottom: 20px;
-
-    font-size: 18px;
 }
 
 p .note{
     background-color: #ffff00;
+}
+
+/* unordered list*/
+
+ul{
+    list-style-position: inside;
 }
