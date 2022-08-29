@@ -69,4 +69,14 @@ main {
     font-size: 13px;
 }
 
+/* pharagraphs */
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
 
+    font-size: 18px;
+}
+
+p .note{
+    background-color: #ffff00;
+}
