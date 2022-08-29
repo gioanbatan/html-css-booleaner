@@ -1,0 +1,149 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+.container{
+    width: 1300px;
+    margin: auto;
+}
+
+
+/* HEADER */
+header{
+    height: 100px;
+    width: 1300px;
+
+    background-color: #4ea0ff;
+    background-image: url("../img/pattern.png");
+    background-size: 380px;
+    background-position: top;
+}
+ 
+header img{
+    margin: 40px calc(10% + 7px);
+    height: 50px;
+}
+
+/* MAIN */
+main{
+    padding: 10px calc(10% + 5px);
+    font-size: 18px;
+}
+
+/* title */
+.article-title h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.article-subtitle{
+    font-size: 18px;
+    font-weight: 600;
+    color: #808080;
+}
+
+.article-date{
+    font-size: 13px;
+    font-weight: 500;
+    color: #808080;
+}
+
+.article-author{
+    color: #36b1e7;
+}
+
+/* photo */
+.photo{
+    margin-top: 20px;
+}
+
+.photo img{
+    height: 350px;
+}
+
+.photo-caption{
+    font-size: 13px;
+}
+
+/* pharagraphs */
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p .note{
+    background-color: #ffff00;
+}
+
+/* unordered list*/
+ul{
+    list-style-position: inside;
+}
+
+/* table */
+table{
+    margin-top: 20px;
+
+    border-collapse: collapse;
+
+    text-align: left;
+}
+
+thead{
+    background-color: #20a9e5;
+    color: #ffffff;
+}
+
+tbody .row-1, tbody .row-3{
+    background-color: #b1e5f2;
+}
+
+.column-type-1{
+    width: 20%;
+}
+
+.column-type-2{
+    width: 50%;
+}
+
+/* FOOTER */
+footer{
+    padding: 10px calc(10% + 5px);
+}
+
+.footer-caption{
+    color: #848484;
+
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.other-first{
+    width: 200px;
+    height: 150px;
+    
+    margin: 10px 0px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+
+    background-image: url("../img/monitor.jpg");
+}
+
+.other-second{
+    width: 200px;
+    height: 150px;
+    
+    margin: 10px 0px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+
+    background-image: url("../img/graph.jpg");
+}
